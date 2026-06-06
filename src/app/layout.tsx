@@ -6,7 +6,7 @@ import LeadPopup from "@/components/LeadPopup";
 import WhatsAppFloating from "@/components/WhatsAppFloating";
 import Schema from "@/components/Schema";
 
-const BASE_URL = "https://apexengineering.vercel.app";
+const BASE_URL = "https://www.apexengineering.org.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),

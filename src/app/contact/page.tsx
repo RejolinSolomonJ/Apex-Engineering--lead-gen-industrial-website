@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-const BASE_URL = "https://apexengineering.vercel.app";
+const BASE_URL = "https://www.apexengineering.org.in";
 
 export const metadata: Metadata = {
   title: "Contact Apex Engineering | Get a Free Industrial Fabrication Quote",
