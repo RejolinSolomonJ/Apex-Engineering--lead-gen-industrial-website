@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import LeadPopup from "@/components/LeadPopup";
-import WhatsAppFloating from "@/components/WhatsAppFloating";
+import LayoutBody from "@/components/LayoutBody";
 import Schema from "@/components/Schema";
 
 const BASE_URL = "https://www.apexengineering.org.in";
@@ -80,11 +77,7 @@ export default function RootLayout({
       <body>
         <Schema type="LocalBusiness" data={{}} />
         <Schema type="WebSite" data={{}} />
-        <Header />
-        <main>{children}</main>
-        <Footer />
-        <LeadPopup />
-        <WhatsAppFloating />
+        <LayoutBody>{children}</LayoutBody>
       </body>
     </html>
   );
